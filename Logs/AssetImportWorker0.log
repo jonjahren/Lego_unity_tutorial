@@ -1,0 +1,2699 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16126 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sondr/unity/GameDev_1_Lego
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64227
+Successfully changed project path to: C:/Users/sondr/unity/GameDev_1_Lego
+C:/Users/sondr/unity/GameDev_1_Lego
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 77.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sondr/unity/GameDev_1_Lego/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   
+    VRAM:     8063 MB
+    Driver:   27.20.100.8280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002934 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1398ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (550ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1801ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1519ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (835ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (701ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2016 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.8 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2450.
+Total: 3.413100 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.163200 ms MarkObjects: 2.801700 ms  DeleteObjects: 0.091900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6182.fbx
+  artifactKey: Guid(da4455e597c60468c88bd085bd75d891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6182.fbx using Guid(da4455e597c60468c88bd085bd75d891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65baec37a48bba0db23a78dff9c47bd6') in 0.292673 seconds 
+  Import took 0.296217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/104.mat
+  artifactKey: Guid(f443bca92609e4dcbbd9fbf9bf1656ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/104.mat using Guid(f443bca92609e4dcbbd9fbf9bf1656ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6679388237a3d3358fdfde2a526f2ab') in 0.326562 seconds 
+  Import took 0.329947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/178.mat
+  artifactKey: Guid(a709a22816b2f42008a284ee81011217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/178.mat using Guid(a709a22816b2f42008a284ee81011217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9653d2f883069826b0bb3e9ff0e2ab87') in 0.034070 seconds 
+  Import took 0.037553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2445.fbx
+  artifactKey: Guid(de5ce943adc4c45569034e8c1f84bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2445.fbx using Guid(de5ce943adc4c45569034e8c1f84bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02394689eff422a9a95cc3d51c75f594') in 0.037641 seconds 
+  Import took 0.041927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000710 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3665.fbx
+  artifactKey: Guid(83fb7bdfc45554c728c7ca7438c1c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3665.fbx using Guid(83fb7bdfc45554c728c7ca7438c1c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c549d30ef9f69bc0e0fec23ef4dd5d24') in 0.049191 seconds 
+  Import took 0.053738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/108.mat
+  artifactKey: Guid(45233404ac52d48c08eacc7a59d755e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/108.mat using Guid(45233404ac52d48c08eacc7a59d755e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272c850d9d5d1bf135c32aedf4863daa') in 0.031617 seconds 
+  Import took 0.035705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6231.fbx
+  artifactKey: Guid(9cfd03d28456a4e499bbf7937dda95a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6231.fbx using Guid(9cfd03d28456a4e499bbf7937dda95a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a3d51164df04dc9b5bbe63fa45b622') in 0.032427 seconds 
+  Import took 0.036005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3297.fbx
+  artifactKey: Guid(2980275b88f9043769756d3dc4f9ff23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3297.fbx using Guid(2980275b88f9043769756d3dc4f9ff23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1391630c4d8d823f3b1f22e83a9867df') in 0.060458 seconds 
+  Import took 0.063972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/29.mat
+  artifactKey: Guid(61110e671edde4f6c9b62f2d717d486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/29.mat using Guid(61110e671edde4f6c9b62f2d717d486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221cd11119acaa25124fdaeab5b4be5d') in 0.039977 seconds 
+  Import took 0.044054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/136.mat
+  artifactKey: Guid(4f8de1f0bd6765944b10cf080957f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/136.mat using Guid(4f8de1f0bd6765944b10cf080957f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0698ff4a2899f2411a54a6e764549873') in 0.025271 seconds 
+  Import took 0.029524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6180.fbx
+  artifactKey: Guid(956ccaff841c547c08ff4b934cd9228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6180.fbx using Guid(956ccaff841c547c08ff4b934cd9228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3bcc4748a6c06ca5a24e435f9d30bf') in 0.084253 seconds 
+  Import took 0.087785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6254.fbx
+  artifactKey: Guid(49b926ecc064746c79e154ba31f7e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6254.fbx using Guid(49b926ecc064746c79e154ba31f7e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2aacc550148e9a7597eda70327d74d') in 0.036860 seconds 
+  Import took 0.040194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/16.mat
+  artifactKey: Guid(2182e4e6fcae3451c887454cb9d4c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/16.mat using Guid(2182e4e6fcae3451c887454cb9d4c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033fa84eb6de95c31925de731578faad') in 0.054738 seconds 
+  Import took 0.060204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/21.mat
+  artifactKey: Guid(725725886cf1d474eac6a243ff3fd5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/21.mat using Guid(725725886cf1d474eac6a243ff3fd5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c033d14fdbe61ba5d7cc40998f00d95d') in 0.035011 seconds 
+  Import took 0.039305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/107.mat
+  artifactKey: Guid(5c65538e671ff455ea6f1912038359f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/107.mat using Guid(5c65538e671ff455ea6f1912038359f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b521f632ca112883648350dff04f731c') in 0.046733 seconds 
+  Import took 0.053608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4495.fbx
+  artifactKey: Guid(2ccf90ffd4a234dc784df7d3ebaeb880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4495.fbx using Guid(2ccf90ffd4a234dc784df7d3ebaeb880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeceb0b9015c28b91fd41882d6c8206') in 0.063671 seconds 
+  Import took 0.070228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4070.fbx
+  artifactKey: Guid(1baa67897db0443c19745fc005be3867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4070.fbx using Guid(1baa67897db0443c19745fc005be3867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b76cae67e3a91377ef4b12095f8041c') in 0.052385 seconds 
+  Import took 0.057589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/100.mat
+  artifactKey: Guid(2442125cc72f447b5a8c2857415f3250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/100.mat using Guid(2442125cc72f447b5a8c2857415f3250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be201e7b104289bdb48c57e567644646') in 0.029633 seconds 
+  Import took 0.035450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Packages/com.unity.lego.materials/Materials/43.mat
+  artifactKey: Guid(aff8ffa1cd4193e48868979209660225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/43.mat using Guid(aff8ffa1cd4193e48868979209660225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b479a6cbd9f5e3bd1146f07edf5ddc8d') in 0.021997 seconds 
+  Import took 0.027536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2465.fbx
+  artifactKey: Guid(f75a60b0c2efc47279cc19e2c61db02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2465.fbx using Guid(f75a60b0c2efc47279cc19e2c61db02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0af51c39c26b0e1e8293f983cd39d1') in 0.044438 seconds 
+  Import took 0.049367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2431.fbx
+  artifactKey: Guid(9c55492263c684673bb70147007902f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2431.fbx using Guid(9c55492263c684673bb70147007902f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2904534b7db89e3571381100212b6fc') in 0.057020 seconds 
+  Import took 0.062072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/118.mat
+  artifactKey: Guid(0d42f978272c744d0b0c29e050447866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/118.mat using Guid(0d42f978272c744d0b0c29e050447866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647d12f79c668f97b064631bc33d43c6') in 0.035748 seconds 
+  Import took 0.039568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3069.fbx
+  artifactKey: Guid(b8cf2bfad9a5f456a9aab6eed03bc8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3069.fbx using Guid(b8cf2bfad9a5f456a9aab6eed03bc8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdb727d3b056c9087612abf7c3d4cd2') in 0.055011 seconds 
+  Import took 0.059635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/126.mat
+  artifactKey: Guid(e33a24d73e14b4bef9e190578f768f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/126.mat using Guid(e33a24d73e14b4bef9e190578f768f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a150dbfddf58ef57792aec111d0f901') in 0.028281 seconds 
+  Import took 0.032222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Packages/com.unity.lego.materials/Materials/40.mat
+  artifactKey: Guid(11323c8d186c42244aa99d444bee296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/40.mat using Guid(11323c8d186c42244aa99d444bee296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9b54dd61b498f99b45cb29239cbd33') in 0.030014 seconds 
+  Import took 0.033944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3024.fbx
+  artifactKey: Guid(4696e5d920570492d88bc926911d3936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3024.fbx using Guid(4696e5d920570492d88bc926911d3936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a02977fc42c2c4ec7d2c30d91ee20f5') in 0.050275 seconds 
+  Import took 0.054959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3023.fbx
+  artifactKey: Guid(f94597299e5c84e7eb306dc08213ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3023.fbx using Guid(f94597299e5c84e7eb306dc08213ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53825a13e74a15f09629498139bc541c') in 0.055185 seconds 
+  Import took 0.060139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2540.fbx
+  artifactKey: Guid(941b530b59ac44242bcb8a9b43e49cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2540.fbx using Guid(941b530b59ac44242bcb8a9b43e49cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc29a6860e8e4815759dacc6f8a3b4d') in 0.042117 seconds 
+  Import took 0.090459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/11153.fbx
+  artifactKey: Guid(7d9f6129b7c7d4ed480a89738f7cf347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/11153.fbx using Guid(7d9f6129b7c7d4ed480a89738f7cf347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b5c3778d47e55cbc76d135aea1db08') in 0.063189 seconds 
+  Import took 0.068417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3046.fbx
+  artifactKey: Guid(27b1d9d6428c44a2684596f6b3b7cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3046.fbx using Guid(27b1d9d6428c44a2684596f6b3b7cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecedf648d1e865796bc8d0b30c97b06e') in 0.043823 seconds 
+  Import took 0.050831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/106.mat
+  artifactKey: Guid(e6593c58b52e641639d94a3fae39809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/106.mat using Guid(e6593c58b52e641639d94a3fae39809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90372052393df549b86e04f975650959') in 0.037538 seconds 
+  Import took 0.042271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4490.fbx
+  artifactKey: Guid(08eed14d2cf374deb914df25fde083be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4490.fbx using Guid(08eed14d2cf374deb914df25fde083be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856a69c43ad8bd27059e7e41e569de63') in 0.077328 seconds 
+  Import took 0.081567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/131.mat
+  artifactKey: Guid(2c26c5f5cabb98647a8c6828bd4e1c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/131.mat using Guid(2c26c5f5cabb98647a8c6828bd4e1c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2046ac402a42333af74b0428c13fc0') in 0.027791 seconds 
+  Import took 0.032225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3878.fbx
+  artifactKey: Guid(f6f55e8595c5540ef92b50aa347a954d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3878.fbx using Guid(f6f55e8595c5540ef92b50aa347a954d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21689f438a2b6c48223579b02fd57cbf') in 0.064063 seconds 
+  Import took 0.067856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/110.mat
+  artifactKey: Guid(ffcebfda209864cecb7cce873d1b6275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/110.mat using Guid(ffcebfda209864cecb7cce873d1b6275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898b4f634eb476cc6da15827a02ffd65') in 0.040750 seconds 
+  Import took 0.044810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3003.fbx
+  artifactKey: Guid(a8ac9a1be4e4c41018263d10fcc4ce1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3003.fbx using Guid(a8ac9a1be4e4c41018263d10fcc4ce1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b9ec5892b9c5927dcdc7e9ae96a248') in 0.063646 seconds 
+  Import took 0.069093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/186.mat
+  artifactKey: Guid(64a7bbb7ac82847f2ae5c55687e6a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/186.mat using Guid(64a7bbb7ac82847f2ae5c55687e6a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8bb109f1b91318f80c87d488b071a6') in 0.032590 seconds 
+  Import took 0.038355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4477.fbx
+  artifactKey: Guid(199d32c033b954fe8b8ef8db0e5990e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4477.fbx using Guid(199d32c033b954fe8b8ef8db0e5990e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b05ac64f508750fda13bceefcb2fce6') in 0.060754 seconds 
+  Import took 0.066842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6183.fbx
+  artifactKey: Guid(58be41ccaea534d55835cb33db5fd000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6183.fbx using Guid(58be41ccaea534d55835cb33db5fd000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c4bc76854706ee7d5d0934a16900fc') in 0.043399 seconds 
+  Import took 0.046927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/137.mat
+  artifactKey: Guid(9901e138ae29a4dc7a5e3351c75304a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/137.mat using Guid(9901e138ae29a4dc7a5e3351c75304a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e93cbd5aa0eef90768db68a8bdb6e3') in 0.032352 seconds 
+  Import took 0.036356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/154.mat
+  artifactKey: Guid(4e7837fc7b09f48d0a29239bae1f4d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/154.mat using Guid(4e7837fc7b09f48d0a29239bae1f4d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e109be3e19b7db69c961370e315694') in 0.031067 seconds 
+  Import took 0.035754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/43.mat
+  artifactKey: Guid(6db8e26bd93134982b24d701cdc186ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/43.mat using Guid(6db8e26bd93134982b24d701cdc186ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324438a9bb3e1741b9d50961a03bd464') in 0.028430 seconds 
+  Import took 0.032885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/185.mat
+  artifactKey: Guid(1b39f8878f93c4825b1048e97b463b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/185.mat using Guid(1b39f8878f93c4825b1048e97b463b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbb8b1129960d1622ef089326fa39b0') in 0.028106 seconds 
+  Import took 0.032219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4287.fbx
+  artifactKey: Guid(66b9f3fa83ea64ae1ac80142202c2fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4287.fbx using Guid(66b9f3fa83ea64ae1ac80142202c2fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe90aa72f43629da270bac220b49c40') in 0.038569 seconds 
+  Import took 0.042293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2450.fbx
+  artifactKey: Guid(48d1c1ab234d8459e8089019594c617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2450.fbx using Guid(48d1c1ab234d8459e8089019594c617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b883052a087b1fab71c87fe4cc6590d2') in 0.051889 seconds 
+  Import took 0.056570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4871.fbx
+  artifactKey: Guid(07d3b7d95b52d45088e4b7d2b7e0cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4871.fbx using Guid(07d3b7d95b52d45088e4b7d2b7e0cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e522492123de0b93551ae240aa3476') in 0.038444 seconds 
+  Import took 0.042811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3020.fbx
+  artifactKey: Guid(5768a0b163b4a4ffab0f3fdc692cde98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3020.fbx using Guid(5768a0b163b4a4ffab0f3fdc692cde98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03072359b4cd455dca46ea65901f181f') in 0.040833 seconds 
+  Import took 0.044901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3070.fbx
+  artifactKey: Guid(e27fa0dba0dd54021bc4875eefded3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3070.fbx using Guid(e27fa0dba0dd54021bc4875eefded3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7843a88f837e40e053a6b777f01c290b') in 0.065699 seconds 
+  Import took 0.070306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3660.fbx
+  artifactKey: Guid(3fd9cba1a31f54c6cbf6ecc905617563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3660.fbx using Guid(3fd9cba1a31f54c6cbf6ecc905617563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8640b4070df4e161fd5605fcfe64a91f') in 0.082471 seconds 
+  Import took 0.089714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3039.fbx
+  artifactKey: Guid(b0cc8e88e002c4051b8841b4f70743bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3039.fbx using Guid(b0cc8e88e002c4051b8841b4f70743bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6e367903fb51a6d16c438fa82649c3') in 0.064988 seconds 
+  Import took 0.070608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3460.fbx
+  artifactKey: Guid(577164cc019e14bb69824f661a63d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3460.fbx using Guid(577164cc019e14bb69824f661a63d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118b98ed3fd3a99f0e9040141694c249') in 0.031990 seconds 
+  Import took 0.035447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/8.mat
+  artifactKey: Guid(4e6134a9ab3804958af8a9290fe502d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/8.mat using Guid(4e6134a9ab3804958af8a9290fe502d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a64463f8a4db41d1ddab6c20c69fa6c') in 0.023694 seconds 
+  Import took 0.026712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/11090.fbx
+  artifactKey: Guid(fafdb6edc7f4f4fbead9bf504d39f16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/11090.fbx using Guid(fafdb6edc7f4f4fbead9bf504d39f16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6662b81c8db21e8ea2ddcd4fa7346338') in 0.036607 seconds 
+  Import took 0.040192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3659.fbx
+  artifactKey: Guid(44a3bf47db73e498896925c1d616b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3659.fbx using Guid(44a3bf47db73e498896925c1d616b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6b2d62d2582ac8491c26a62007fa2b') in 0.060466 seconds 
+  Import took 0.065099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3943.fbx
+  artifactKey: Guid(bda6ecfb383e148c7ac4c211c35e6555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3943.fbx using Guid(bda6ecfb383e148c7ac4c211c35e6555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de66bce6da3217abb9d2f6ef64c151f4') in 0.065293 seconds 
+  Import took 0.068860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/10885.fbx
+  artifactKey: Guid(ba75f112fe3284a5dab6a6d3a06a6c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/10885.fbx using Guid(ba75f112fe3284a5dab6a6d3a06a6c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78f13dc8def97732790df2da3250d3c') in 0.043303 seconds 
+  Import took 0.046696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/22.mat
+  artifactKey: Guid(c5c448a48a4a64223a170bac3ca8b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/22.mat using Guid(c5c448a48a4a64223a170bac3ca8b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405b6098ec369a67d489938a30c94483') in 0.023527 seconds 
+  Import took 0.028350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6636.fbx
+  artifactKey: Guid(be7299dabecd243db9a5a438d3d51d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6636.fbx using Guid(be7299dabecd243db9a5a438d3d51d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e14d5758a01fa8b48303051594c65ff') in 0.043377 seconds 
+  Import took 0.048632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/187.mat
+  artifactKey: Guid(b92d8b499af344f1fa469dc6400bdf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/187.mat using Guid(b92d8b499af344f1fa469dc6400bdf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fd2d60fec8973a63a25e9263f27025') in 0.027368 seconds 
+  Import took 0.031473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Packages/com.unity.lego.materials/Materials/47.mat
+  artifactKey: Guid(213ff2ceb0c14e243acf4269a39c4a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/47.mat using Guid(213ff2ceb0c14e243acf4269a39c4a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ef7881451001177775c4c70a3f2d80') in 0.023132 seconds 
+  Import took 0.026471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/15.mat
+  artifactKey: Guid(1e9896fd8a30645b989de1a986bc4984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/15.mat using Guid(1e9896fd8a30645b989de1a986bc4984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00033e8a3ef6298d27bffcb20f925dd5') in 0.020446 seconds 
+  Import took 0.023534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/39.mat
+  artifactKey: Guid(5f50bc330945845a8a29126a30bf902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/39.mat using Guid(5f50bc330945845a8a29126a30bf902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a150aea8bad87014e964742a8764af5c') in 0.019556 seconds 
+  Import took 0.022597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Packages/com.unity.lego.materials/Materials/154.mat
+  artifactKey: Guid(e44b3634288b6614a919650741a79063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/154.mat using Guid(e44b3634288b6614a919650741a79063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e46912ed44a3ff049e5362782b4f9b') in 0.020131 seconds 
+  Import took 0.023106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/103.mat
+  artifactKey: Guid(30051cb171f254296878a4ce81e61082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/103.mat using Guid(30051cb171f254296878a4ce81e61082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5fdf129eeb210f4bc93bbea3286204') in 0.026177 seconds 
+  Import took 0.029464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Packages/com.unity.lego.materials/Materials/124.mat
+  artifactKey: Guid(c54fa0a977bec4742a4b5d4a838535a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/124.mat using Guid(c54fa0a977bec4742a4b5d4a838535a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9c53463bf000cf357b860a664d050d') in 0.025577 seconds 
+  Import took 0.029576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4510.fbx
+  artifactKey: Guid(5ffb09d0b221f478399999016300c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4510.fbx using Guid(5ffb09d0b221f478399999016300c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95c6664742e5c8a4c9f21af1c241de0') in 0.048681 seconds 
+  Import took 0.053041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Packages/com.unity.lego.materials/Materials/41.mat
+  artifactKey: Guid(95c365c61c7e16142a05abad2baef13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/41.mat using Guid(95c365c61c7e16142a05abad2baef13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d34e12d3cab6a4f95e632d81eac0a3') in 0.024771 seconds 
+  Import took 0.030975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Packages/com.unity.lego.materials/Materials/141.mat
+  artifactKey: Guid(f7f1064835ded8d4ea0f1efe4e40060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/141.mat using Guid(f7f1064835ded8d4ea0f1efe4e40060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b095b3a778e37f54241a999df363d8') in 0.029334 seconds 
+  Import took 0.033030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Packages/com.unity.lego.materials/Materials/119.mat
+  artifactKey: Guid(7d8478bd4ba56f34a8b40b0cb51a17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/119.mat using Guid(7d8478bd4ba56f34a8b40b0cb51a17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2179417fde76b445d699cb8e03784c') in 0.020952 seconds 
+  Import took 0.024446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3960.fbx
+  artifactKey: Guid(4221b139da7974c0883eeff83f00016b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3960.fbx using Guid(4221b139da7974c0883eeff83f00016b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a6dadbf03edfa4b1f1d5eb99fa090d') in 0.041027 seconds 
+  Import took 0.046761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/139.mat
+  artifactKey: Guid(1f7603e0d644ef4439149b1158fc8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/139.mat using Guid(1f7603e0d644ef4439149b1158fc8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e383fcea55f72221adf1c243f20214') in 0.034649 seconds 
+  Import took 0.041196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/6.mat
+  artifactKey: Guid(91b402684a0f94f5da9e4ad4b8823add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/6.mat using Guid(91b402684a0f94f5da9e4ad4b8823add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdd01f0f795154dbbf75f3298ac8633') in 0.031896 seconds 
+  Import took 0.035893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3839.fbx
+  artifactKey: Guid(5d902605c2f854840b1155dc53423eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3839.fbx using Guid(5d902605c2f854840b1155dc53423eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7413996be034ac3b0058fe2d63f9e1f8') in 0.029582 seconds 
+  Import took 0.033388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/134.mat
+  artifactKey: Guid(58549d94f97c84ef3943622a99ae9da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/134.mat using Guid(58549d94f97c84ef3943622a99ae9da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0eccaf586284f8d7ce961f314ca16b9') in 0.023994 seconds 
+  Import took 0.027287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6111.fbx
+  artifactKey: Guid(24eb9b80f9b654052852420a2f94c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6111.fbx using Guid(24eb9b80f9b654052852420a2f94c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ce45503514a3100989d2ade9f46dbd') in 0.065709 seconds 
+  Import took 0.069282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Packages/com.unity.lego.materials/Materials/1.mat
+  artifactKey: Guid(43aef8f8b54843045ba174763ff22c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/1.mat using Guid(43aef8f8b54843045ba174763ff22c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d48589b3d93b352f6fbd7076746e02') in 0.022097 seconds 
+  Import took 0.025411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/116.mat
+  artifactKey: Guid(f453a60f61d9b4f4c88e75954d16d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/116.mat using Guid(f453a60f61d9b4f4c88e75954d16d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946e4d48d4c067d18b4d253cdc7ddb54') in 0.032064 seconds 
+  Import took 0.035827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3675.fbx
+  artifactKey: Guid(202826ec21dd5436791e4a1a2eaa8675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3675.fbx using Guid(202826ec21dd5436791e4a1a2eaa8675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c732e5b4ee48d2aa9631a07820be9b6') in 0.039838 seconds 
+  Import took 0.044397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/17.mat
+  artifactKey: Guid(79de933aab12549d38ffb30cf1652977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/17.mat using Guid(79de933aab12549d38ffb30cf1652977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7b459f5287240442ec18e36e10895c') in 0.047434 seconds 
+  Import took 0.052247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/42.mat
+  artifactKey: Guid(b45891d3f93bd4b16a272ded021067a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/42.mat using Guid(b45891d3f93bd4b16a272ded021067a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6483d579fd48112602d1b5f46d94776') in 0.041202 seconds 
+  Import took 0.044716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4032.fbx
+  artifactKey: Guid(4c68faf9de6654bdaa3cb759d51e64c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4032.fbx using Guid(4c68faf9de6654bdaa3cb759d51e64c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0c633a211e23b2cf7da2909697b274') in 0.054716 seconds 
+  Import took 0.058264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/113.mat
+  artifactKey: Guid(504aab2ac8e644054a4cf6e58f86fc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/113.mat using Guid(504aab2ac8e644054a4cf6e58f86fc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa9a0acca0face6eb46f5d80ece9ea6') in 0.029723 seconds 
+  Import took 0.033925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/145.mat
+  artifactKey: Guid(4c3514c3e21c84e7ba66cc4d6424f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/145.mat using Guid(4c3514c3e21c84e7ba66cc4d6424f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f28eb28177f200d6db38d3da48fb67d') in 0.025281 seconds 
+  Import took 0.028932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Packages/com.unity.lego.materials/Materials/44.mat
+  artifactKey: Guid(bf5b1dfa278843d4583c6a16f804d3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/44.mat using Guid(bf5b1dfa278843d4583c6a16f804d3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8eccc6b9feeb350c40b285ae90b869') in 0.037884 seconds 
+  Import took 0.041769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/158.mat
+  artifactKey: Guid(9e9402294320b4663aeecc8fa1aea628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/158.mat using Guid(9e9402294320b4663aeecc8fa1aea628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ad13be4f8b0024717258fd1fea184e') in 0.042155 seconds 
+  Import took 0.047195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/184.mat
+  artifactKey: Guid(450dfbec825ab4b708ef12cae32f362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/184.mat using Guid(450dfbec825ab4b708ef12cae32f362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e80465a1dfb4a897c869511009e003') in 0.039199 seconds 
+  Import took 0.043580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3008.fbx
+  artifactKey: Guid(3d556280bc1e84953b40638f4c49fbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3008.fbx using Guid(3d556280bc1e84953b40638f4c49fbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b9427aaae7a865486b2a29fcdc611') in 0.051092 seconds 
+  Import took 0.055848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3035.fbx
+  artifactKey: Guid(9d6ba3e674b864c389fce0f15bd210cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3035.fbx using Guid(9d6ba3e674b864c389fce0f15bd210cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c975e293fae74e609fdf55fc1a1c68a0') in 0.032953 seconds 
+  Import took 0.039312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3062.fbx
+  artifactKey: Guid(a3db70242818f42f6a266f08becfdf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3062.fbx using Guid(a3db70242818f42f6a266f08becfdf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d65fbedabcf3ee763f17b17e5b7d35') in 0.093744 seconds 
+  Import took 0.097693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/102.mat
+  artifactKey: Guid(74beec3a632e04a6c98e16c2217ef57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/102.mat using Guid(74beec3a632e04a6c98e16c2217ef57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1aaf2616a43d8489d324a98da04915') in 0.028355 seconds 
+  Import took 0.032412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2340.fbx
+  artifactKey: Guid(67cf15900007a4656bd3f7ed9e0ac17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2340.fbx using Guid(67cf15900007a4656bd3f7ed9e0ac17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd3e391fceeaa64f4efb3129c4ea9b8') in 0.042160 seconds 
+  Import took 0.046353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/183.mat
+  artifactKey: Guid(2e6cd8b9cdd4147c7bdb12e341aec8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/183.mat using Guid(2e6cd8b9cdd4147c7bdb12e341aec8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e10dca595c854a04434317580fb13c2') in 0.029926 seconds 
+  Import took 0.034010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/140.mat
+  artifactKey: Guid(e0a485fa3551c434d9003aba56521f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/140.mat using Guid(e0a485fa3551c434d9003aba56521f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cab605b5c12943fa0aa5b34c1830872') in 0.039450 seconds 
+  Import took 0.043153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Packages/com.unity.lego.materials/Materials/42.mat
+  artifactKey: Guid(9740529fafbcd6b428ca33eb54116d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/42.mat using Guid(9740529fafbcd6b428ca33eb54116d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a54ecbdc9ac988e4bf8e10547c5481b') in 0.034891 seconds 
+  Import took 0.038303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6141.fbx
+  artifactKey: Guid(fe2f461e98742414c902d844d3133f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6141.fbx using Guid(fe2f461e98742414c902d844d3133f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1877144cf222e28378604c527b0194e') in 0.029258 seconds 
+  Import took 0.032563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/133.mat
+  artifactKey: Guid(6fa25b6d635364d0c8b80228ef22852e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/133.mat using Guid(6fa25b6d635364d0c8b80228ef22852e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3631f71f449fbc999e201f3281d21b6f') in 0.029604 seconds 
+  Import took 0.034380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/188.mat
+  artifactKey: Guid(6051a8e3e0e534e8e954f3382a3c2584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/188.mat using Guid(6051a8e3e0e534e8e954f3382a3c2584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b99711df9a1751eca4f48bf69a52d3f') in 0.039748 seconds 
+  Import took 0.043340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/149.mat
+  artifactKey: Guid(80d32bed5a964475a9a653ff83620391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/149.mat using Guid(80d32bed5a964475a9a653ff83620391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070148f701f2887387aea736108ec215') in 0.037389 seconds 
+  Import took 0.043170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/11213.fbx
+  artifactKey: Guid(5507389ec831b486c873f96a3ef338c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/11213.fbx using Guid(5507389ec831b486c873f96a3ef338c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798b566da09ffc05dde274557ab1bd1d') in 0.046923 seconds 
+  Import took 0.052188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4445.fbx
+  artifactKey: Guid(38b4bce18bea54177bcf265e6a1403f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4445.fbx using Guid(38b4bce18bea54177bcf265e6a1403f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0214f7c6111b5fd2905b99ddbd35dd') in 0.042147 seconds 
+  Import took 0.046357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4515.fbx
+  artifactKey: Guid(83a93249b65bd4d07a32462811fb82ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4515.fbx using Guid(83a93249b65bd4d07a32462811fb82ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c1017358ada00c343d89e9a4257e15') in 0.036229 seconds 
+  Import took 0.040406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4600.fbx
+  artifactKey: Guid(a868814ddb709465fa75e53af704ef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4600.fbx using Guid(a868814ddb709465fa75e53af704ef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab576c8bd4ce2b94d803347f9505c7e') in 0.044579 seconds 
+  Import took 0.048537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3031.fbx
+  artifactKey: Guid(14a4e85a76b4a4211b91b537285421be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3031.fbx using Guid(14a4e85a76b4a4211b91b537285421be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04810398c34d4819ef09955fe868e40b') in 0.054105 seconds 
+  Import took 0.058145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/146.mat
+  artifactKey: Guid(21ad9a1e42e53474d98ba7ee8bbfc259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/146.mat using Guid(21ad9a1e42e53474d98ba7ee8bbfc259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7097e48aa85f0fe7e92f42aaab808a69') in 0.035686 seconds 
+  Import took 0.040402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/44.mat
+  artifactKey: Guid(a6ea1e19a19d54214962837bf88d0c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/44.mat using Guid(a6ea1e19a19d54214962837bf88d0c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751a7cb27355fd8013e38c6d6a2deaae') in 0.035455 seconds 
+  Import took 0.040176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3676.fbx
+  artifactKey: Guid(d8631869b90094f6eacc69b204f991a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3676.fbx using Guid(d8631869b90094f6eacc69b204f991a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cee402bcaf8fbebd1dbebf4b6c295e') in 0.045754 seconds 
+  Import took 0.050767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/25.mat
+  artifactKey: Guid(4f016e9a367b64ea8bcfd3f290869981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/25.mat using Guid(4f016e9a367b64ea8bcfd3f290869981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffff31235755deb461fc2f0e09d08a3') in 0.028493 seconds 
+  Import took 0.031992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Packages/com.unity.lego.materials/Materials/182.mat
+  artifactKey: Guid(a9b2afcbefb09074d8feaa209270ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/182.mat using Guid(a9b2afcbefb09074d8feaa209270ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17677564bd3926628005545629e6a7b8') in 0.052166 seconds 
+  Import took 0.057282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/3.mat
+  artifactKey: Guid(c5768343e43fb4ad985b1c7175d55f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/3.mat using Guid(c5768343e43fb4ad985b1c7175d55f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ed5d9a360167bceaab286b24259963') in 0.045833 seconds 
+  Import took 0.049603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/150.mat
+  artifactKey: Guid(20852040721f8451fbb5ba871fe01608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/150.mat using Guid(20852040721f8451fbb5ba871fe01608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593cd1e9c60773069e923129b401d776') in 0.050359 seconds 
+  Import took 0.054432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/148.mat
+  artifactKey: Guid(27c5ee86862f20b42894d4caa94c27b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/148.mat using Guid(27c5ee86862f20b42894d4caa94c27b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f86a00430dd5dd1e48a2b90eef2db56') in 0.076708 seconds 
+  Import took 0.081481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/20.mat
+  artifactKey: Guid(85c829f7b3b8c46c795163ab7dc7b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/20.mat using Guid(85c829f7b3b8c46c795163ab7dc7b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3abae33d7950bb9c8e11699d9bec4ed') in 0.050267 seconds 
+  Import took 0.054238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/180.mat
+  artifactKey: Guid(025ef3314f1fd4ee9b53160e0cc74f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/180.mat using Guid(025ef3314f1fd4ee9b53160e0cc74f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd816b168de5c840a43b72ad1704ae1f9') in 0.042755 seconds 
+  Import took 0.046928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3034.fbx
+  artifactKey: Guid(4ce22e2a837d84f28a8c65c778ca8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3034.fbx using Guid(4ce22e2a837d84f28a8c65c778ca8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57952d67b4df3305e9f6d142c4ed9cd') in 0.047226 seconds 
+  Import took 0.051463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3022.fbx
+  artifactKey: Guid(4f8a699f5ed9c448f80176cedc526e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3022.fbx using Guid(4f8a699f5ed9c448f80176cedc526e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bff457e72b6c94184fd6e0f416edc5') in 0.104370 seconds 
+  Import took 0.108449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4150.fbx
+  artifactKey: Guid(8daa4d8d35dea4abfab8213c0dcbfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4150.fbx using Guid(8daa4d8d35dea4abfab8213c0dcbfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f24b87f358828b441d19eacf518a408') in 0.133418 seconds 
+  Import took 0.138185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4094.fbx
+  artifactKey: Guid(66668a8a6820a47c69ca21d3d2613e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4094.fbx using Guid(66668a8a6820a47c69ca21d3d2613e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300772ba3c602b6908acd3dbe786c7d1') in 0.098262 seconds 
+  Import took 0.102035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/7.mat
+  artifactKey: Guid(e4e4d5d17248f47e081575b62c946c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/7.mat using Guid(e4e4d5d17248f47e081575b62c946c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6a4061776169a3091f937ee2b3e8ce') in 0.032715 seconds 
+  Import took 0.036585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Packages/com.unity.lego.materials/Materials/26.mat
+  artifactKey: Guid(282a32f423def7f469f8e2059ced608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/26.mat using Guid(282a32f423def7f469f8e2059ced608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25de57f3408dfc732aa9cf14c4014b63') in 0.020255 seconds 
+  Import took 0.024328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/135.mat
+  artifactKey: Guid(7758136b444f7475d92fc1a65af6c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/135.mat using Guid(7758136b444f7475d92fc1a65af6c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4596f131237bf7b2354258f923061fe2') in 0.030003 seconds 
+  Import took 0.033920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3626.fbx
+  artifactKey: Guid(ad4c3069544f74754a7fb012a817845b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3626.fbx using Guid(ad4c3069544f74754a7fb012a817845b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcd1e57281b77343540f0557b721c9f') in 0.158162 seconds 
+  Import took 0.163693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3068.fbx
+  artifactKey: Guid(f121d421355414b60aed4d142f316819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3068.fbx using Guid(f121d421355414b60aed4d142f316819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200e001b415e43c60a4a42b3cfb0e792') in 0.073691 seconds 
+  Import took 0.080377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3747.fbx
+  artifactKey: Guid(c3039b16127aa424a902f482ec5bfac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3747.fbx using Guid(c3039b16127aa424a902f482ec5bfac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5224fb647c816d49b30380a72df20211') in 0.043638 seconds 
+  Import took 0.047109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2357.fbx
+  artifactKey: Guid(78b1b426d5490414ba93ccde304d2596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2357.fbx using Guid(78b1b426d5490414ba93ccde304d2596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bf16fd141799c68167146b5409f1d7') in 0.088847 seconds 
+  Import took 0.093716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/147.mat
+  artifactKey: Guid(7abbc6baf187a48c3804d25c87a22663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/147.mat using Guid(7abbc6baf187a48c3804d25c87a22663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aef9394d1a49df7f06dc9f1ddb24f7') in 0.035181 seconds 
+  Import took 0.038932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/151.mat
+  artifactKey: Guid(f2a6bde2d9d284e7e8ebc18b89796983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/151.mat using Guid(f2a6bde2d9d284e7e8ebc18b89796983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7c4c65feecfaff85130eb6422f8f74') in 0.047587 seconds 
+  Import took 0.051695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4740.fbx
+  artifactKey: Guid(6134694a1d0b9462baf8dd120130fb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4740.fbx using Guid(6134694a1d0b9462baf8dd120130fb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2344246014cf731d7f67767009d25588') in 0.071255 seconds 
+  Import took 0.074832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2412.fbx
+  artifactKey: Guid(50dc70daa8aa04d9fbb69e1a6ba23c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2412.fbx using Guid(50dc70daa8aa04d9fbb69e1a6ba23c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4791f839a71d21d24df00804ba6356f7') in 0.036910 seconds 
+  Import took 0.041056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/153.mat
+  artifactKey: Guid(b07a1a5c02cd64f0b8e92d4c1476cf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/153.mat using Guid(b07a1a5c02cd64f0b8e92d4c1476cf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9483761ca861b90b3df0ed449f5d5e62') in 0.040607 seconds 
+  Import took 0.044529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3002.fbx
+  artifactKey: Guid(e9243068443d54961a83fd541383bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3002.fbx using Guid(e9243068443d54961a83fd541383bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d4146055e5117ab37870effa37ea22') in 0.077249 seconds 
+  Import took 0.081274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4282.fbx
+  artifactKey: Guid(e27150c7e0a484dbeb279d20bfc8c0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4282.fbx using Guid(e27150c7e0a484dbeb279d20bfc8c0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258427d05d2a753ccb1f7693906bc718') in 0.055922 seconds 
+  Import took 0.059997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Packages/com.unity.lego.materials/Materials/5.mat
+  artifactKey: Guid(a9983cd9542e14d41b5496990305c9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/5.mat using Guid(a9983cd9542e14d41b5496990305c9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87eddcb9b3479eb7474b9b9fb8088ba') in 0.020918 seconds 
+  Import took 0.025083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6143 Modified Decoration Surfaces.fbx
+  artifactKey: Guid(1d89ef8d9c9d3411f927b93a04cff9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6143 Modified Decoration Surfaces.fbx using Guid(1d89ef8d9c9d3411f927b93a04cff9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365994c15b5bb17e64ebcc8c4be6dc2f') in 0.048659 seconds 
+  Import took 0.053078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3832.fbx
+  artifactKey: Guid(96bbb836bee5045f1b55e1bc26bb6146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3832.fbx using Guid(96bbb836bee5045f1b55e1bc26bb6146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8510c6b30d566028cd730412c82358e') in 0.038724 seconds 
+  Import took 0.043366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Packages/com.unity.lego.materials/Materials/18.mat
+  artifactKey: Guid(4d2dbeece50cde141b9441e668adda0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/18.mat using Guid(4d2dbeece50cde141b9441e668adda0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78028bd73eb0de5e736c6bf4d318fc57') in 0.040987 seconds 
+  Import took 0.045492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3700.fbx
+  artifactKey: Guid(076547ee2857d47afa35fc37976be643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3700.fbx using Guid(076547ee2857d47afa35fc37976be643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb9ec7bea2f30fdf912bab5741ed623') in 0.047243 seconds 
+  Import took 0.052171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4285.fbx
+  artifactKey: Guid(357febd52d3044a64be56cd86393a39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4285.fbx using Guid(357febd52d3044a64be56cd86393a39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eef3743f90b693260f45ba5c600be2') in 0.050765 seconds 
+  Import took 0.056281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3678.fbx
+  artifactKey: Guid(bb827f4ce38be4b9b816787e70ddedcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3678.fbx using Guid(bb827f4ce38be4b9b816787e70ddedcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d9a43d07537010e485e812bbd95c32') in 0.079486 seconds 
+  Import took 0.084163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3685.fbx
+  artifactKey: Guid(bc2d69f9d5ccc42b4a75643c1f4211e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3685.fbx using Guid(bc2d69f9d5ccc42b4a75643c1f4211e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7025a8c8bfd7b08b5bef1b5e7cf07d7') in 0.034168 seconds 
+  Import took 0.037422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/121.mat
+  artifactKey: Guid(4d8f93fe5a57a4cd3b9f9b86712466bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/121.mat using Guid(4d8f93fe5a57a4cd3b9f9b86712466bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3548d41b166e9d95c70d4799e2ea80') in 0.029171 seconds 
+  Import took 0.033618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/101.mat
+  artifactKey: Guid(7bf16cece56a848e69ea4200bacaad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/101.mat using Guid(7bf16cece56a848e69ea4200bacaad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4b936fb82a9667703cbadd93636370') in 0.031723 seconds 
+  Import took 0.037442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/124.mat
+  artifactKey: Guid(4b2d138866ce344e2b7a2e5f2557cf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/124.mat using Guid(4b2d138866ce344e2b7a2e5f2557cf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7e9ea9809fd953efae11d8e06be1a5') in 0.028237 seconds 
+  Import took 0.032770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2453.fbx
+  artifactKey: Guid(5158fffafe3544e09ac6d9f97bd93f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2453.fbx using Guid(5158fffafe3544e09ac6d9f97bd93f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0f329f5e35dc2193d2e920295606d8') in 0.046005 seconds 
+  Import took 0.050859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Packages/com.unity.lego.materials/Materials/106.mat
+  artifactKey: Guid(245e3c077aedc472d9d0a419abbc81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/106.mat using Guid(245e3c077aedc472d9d0a419abbc81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef24de862197fc8f87e966838015ee5') in 0.025027 seconds 
+  Import took 0.029692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3245.fbx
+  artifactKey: Guid(65783267d61e74adcbb86b2102c57ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3245.fbx using Guid(65783267d61e74adcbb86b2102c57ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81df18a31ee4a2957c16ea3a2ce23f6e') in 0.056688 seconds 
+  Import took 0.061559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/36.mat
+  artifactKey: Guid(5b7036f2c0fb1425cb6c89bf2883df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/36.mat using Guid(5b7036f2c0fb1425cb6c89bf2883df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3540b29049bc5c5d037328743ce82fd') in 0.028182 seconds 
+  Import took 0.033499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/125.mat
+  artifactKey: Guid(dab40ddc8b7974110abcc3a28014102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/125.mat using Guid(dab40ddc8b7974110abcc3a28014102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594b372fbba27945d199d5c5be722f6b') in 0.029559 seconds 
+  Import took 0.034447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/115.mat
+  artifactKey: Guid(720fd69ade1f649f590a1ca6796b179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/115.mat using Guid(720fd69ade1f649f590a1ca6796b179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f00f6839e66e22c010e72cb87b63a9e') in 0.040997 seconds 
+  Import took 0.045602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3795.fbx
+  artifactKey: Guid(daa3df8852a3a4f96bdb9b9a5215c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3795.fbx using Guid(daa3df8852a3a4f96bdb9b9a5215c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fff5eee89ccd9979d6c56fef67a8e77') in 0.043701 seconds 
+  Import took 0.047978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4161.fbx
+  artifactKey: Guid(ccc1f7394f26041c1959aac641be4cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4161.fbx using Guid(ccc1f7394f26041c1959aac641be4cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0566e366e8c0c22e2ef528dd2d18e9') in 0.044739 seconds 
+  Import took 0.049859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4085.fbx
+  artifactKey: Guid(4664f4067905c485ba838da4d122d556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4085.fbx using Guid(4664f4067905c485ba838da4d122d556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15b07aedaeaa65a60f78a190d023e28') in 0.042241 seconds 
+  Import took 0.047772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/123.mat
+  artifactKey: Guid(350651dfbd8cd4fddbc74b62ca3cd884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/123.mat using Guid(350651dfbd8cd4fddbc74b62ca3cd884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b56a6177f8cdf29ced11faa9390db85') in 0.037007 seconds 
+  Import took 0.041786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/27.mat
+  artifactKey: Guid(888a587437c024f368ebcfa01f34eefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/27.mat using Guid(888a587437c024f368ebcfa01f34eefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838874c7b37b1ed3b4c44ad02e7d9ce4') in 0.031817 seconds 
+  Import took 0.036122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Packages/com.unity.lego.materials/Materials/140.mat
+  artifactKey: Guid(bfa81bbfa59b21e47800b560e6501ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/140.mat using Guid(bfa81bbfa59b21e47800b560e6501ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9343f631893642a0d2b76cfbe4dc0579') in 0.026329 seconds 
+  Import took 0.031675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/111.mat
+  artifactKey: Guid(0ef2dfd27d6ea4114bbd6ade77018854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/111.mat using Guid(0ef2dfd27d6ea4114bbd6ade77018854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9600f5dd52eacd16f124a78e99cb10e') in 0.025270 seconds 
+  Import took 0.029791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3044.fbx
+  artifactKey: Guid(059b5d6e75b0d4519a22e4d455eda6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3044.fbx using Guid(059b5d6e75b0d4519a22e4d455eda6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f564f32095b74028530ca404535dffd4') in 0.042924 seconds 
+  Import took 0.047926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3037.fbx
+  artifactKey: Guid(ea12f89ab5ee243c3a79dec9ac03d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3037.fbx using Guid(ea12f89ab5ee243c3a79dec9ac03d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b2f358d07ef27677955152de59eaef') in 0.067652 seconds 
+  Import took 0.072984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/11062.fbx
+  artifactKey: Guid(6e347c076cbb44dd7a8534aecb4b6035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/11062.fbx using Guid(6e347c076cbb44dd7a8534aecb4b6035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd33736c74dd8b0a3530ab8f9a4cd47') in 0.037766 seconds 
+  Import took 0.043529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/179.mat
+  artifactKey: Guid(6c7d79f00743a4b47823bcaf3eef316e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/179.mat using Guid(6c7d79f00743a4b47823bcaf3eef316e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e6565377a532a8bd37659558a39827') in 0.030924 seconds 
+  Import took 0.035649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Packages/com.unity.lego.materials/Materials/49.mat
+  artifactKey: Guid(73aef25d17a08ec488239c5da240ba2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/49.mat using Guid(73aef25d17a08ec488239c5da240ba2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a648460c2627827086efa01ae1fb2e3') in 0.020880 seconds 
+  Import took 0.025425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/5.mat
+  artifactKey: Guid(f3b26d1f1cf01465c8a7ac660725687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/5.mat using Guid(f3b26d1f1cf01465c8a7ac660725687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60930fce9099a89bb15da02b0e748998') in 0.028037 seconds 
+  Import took 0.033050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Packages/com.unity.lego.materials/Materials/38.mat
+  artifactKey: Guid(5f4a52146176b304297ed65b7ccd4780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/38.mat using Guid(5f4a52146176b304297ed65b7ccd4780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728489750ef04e34e633336c57a12f7') in 0.031389 seconds 
+  Import took 0.037125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6091.fbx
+  artifactKey: Guid(99a0512355fc949389b1f588b6e0fceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6091.fbx using Guid(99a0512355fc949389b1f588b6e0fceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34cf9dead7b16395b993491d8d94827') in 0.039948 seconds 
+  Import took 0.044816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3710.fbx
+  artifactKey: Guid(4e88fac9134db4232ad9869398b10edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3710.fbx using Guid(4e88fac9134db4232ad9869398b10edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9917eb5cf16ad3c7eea16ca3563f98b2') in 0.069902 seconds 
+  Import took 0.075092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/112.mat
+  artifactKey: Guid(051abafdcc2934821994cebcece8c27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/112.mat using Guid(051abafdcc2934821994cebcece8c27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8565bb5a8be969e80e96e1dfce3b908') in 0.034354 seconds 
+  Import took 0.040190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/4.mat
+  artifactKey: Guid(9585917c97a3a4fd38eb797639f454c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/4.mat using Guid(9585917c97a3a4fd38eb797639f454c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090e70ccc68ff44b9c455935449ecaa0') in 0.033790 seconds 
+  Import took 0.039570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/28.mat
+  artifactKey: Guid(f5ed28521bcf04f548ae19b6f8461887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/28.mat using Guid(f5ed28521bcf04f548ae19b6f8461887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b088ce218157e58eacf859b3c2c827') in 0.028923 seconds 
+  Import took 0.033491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3032.fbx
+  artifactKey: Guid(9669827953f164195881b16cb33b0c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3032.fbx using Guid(9669827953f164195881b16cb33b0c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e0675097c6180df570a5e6053bbe66') in 0.036878 seconds 
+  Import took 0.040348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Packages/com.unity.lego.materials/Materials/37.mat
+  artifactKey: Guid(c5ec2dc9a4751194092cea3c4e3170b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/37.mat using Guid(c5ec2dc9a4751194092cea3c4e3170b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5a4778fd55958bec5b3f7be4be15bc') in 0.026646 seconds 
+  Import took 0.033774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3066.fbx
+  artifactKey: Guid(84caaaa1a706a4342be5255a4ddf251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3066.fbx using Guid(84caaaa1a706a4342be5255a4ddf251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e60a994f931a14382d73d8fcdee441') in 0.046658 seconds 
+  Import took 0.050801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Packages/com.unity.lego.materials/Materials/151.mat
+  artifactKey: Guid(285ef789b10e79d4695398c4dfb8b401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/151.mat using Guid(285ef789b10e79d4695398c4dfb8b401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc40048f38dd178fb28479b81cf71e26') in 0.028933 seconds 
+  Import took 0.033737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4590.fbx
+  artifactKey: Guid(b5345677914c44bf081adc9ee87fa264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4590.fbx using Guid(b5345677914c44bf081adc9ee87fa264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3002caf9396faa5cbfcd7dfbc8a57e') in 0.038568 seconds 
+  Import took 0.044071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/26.mat
+  artifactKey: Guid(b1f99f36303724b0093d43a054a77f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/26.mat using Guid(b1f99f36303724b0093d43a054a77f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42f6447b0a23409b35902728b818026') in 0.030273 seconds 
+  Import took 0.034546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4733.fbx
+  artifactKey: Guid(8c6d3bff218014ffa837291798ea787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4733.fbx using Guid(8c6d3bff218014ffa837291798ea787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5380d63bcf639385e5e18a59323a684') in 0.044979 seconds 
+  Import took 0.049034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/11212.fbx
+  artifactKey: Guid(0eb25eb962a184e7f9236590d8c9cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/11212.fbx using Guid(0eb25eb962a184e7f9236590d8c9cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5af9b63043b4e6bf7db9bdbdacc2b1') in 0.050176 seconds 
+  Import took 0.053546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4861.fbx
+  artifactKey: Guid(e46d352a340ce422ca50d0479379b8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4861.fbx using Guid(e46d352a340ce422ca50d0479379b8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18705144667d2059d02da8b3d614a9c') in 0.053186 seconds 
+  Import took 0.058092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6064.fbx
+  artifactKey: Guid(6059d6fef0fd3425fae75ee3c302c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6064.fbx using Guid(6059d6fef0fd3425fae75ee3c302c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2d5114358a030e2ffc6c5f28fad32') in 0.033459 seconds 
+  Import took 0.037587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/10202.fbx
+  artifactKey: Guid(beaf421b183ee4e22b07e79af5d500e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/10202.fbx using Guid(beaf421b183ee4e22b07e79af5d500e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6f8a0c237d86242fa7ef52cb77132e') in 0.061017 seconds 
+  Import took 0.065326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/48.mat
+  artifactKey: Guid(a0cf7b9068090422694e2892ce3ed0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/48.mat using Guid(a0cf7b9068090422694e2892ce3ed0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c4bf211e963182f00b217d6ca28b59') in 0.027973 seconds 
+  Import took 0.032695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3298.fbx
+  artifactKey: Guid(d5f329c15818e40b2b30369ac3a22415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3298.fbx using Guid(d5f329c15818e40b2b30369ac3a22415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a5bbf8ef8c5d4c7d9195e54040854f') in 0.065710 seconds 
+  Import took 0.069939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/14.mat
+  artifactKey: Guid(46404690065034a0ca0ac31471aab7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/14.mat using Guid(46404690065034a0ca0ac31471aab7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93f8da34658fcddeb56d874354fcab0') in 0.054454 seconds 
+  Import took 0.059047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3040.fbx
+  artifactKey: Guid(72e5381567983474a8b1b887cb72fcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3040.fbx using Guid(72e5381567983474a8b1b887cb72fcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3e2f529ecbd888626d58753530d954') in 0.086430 seconds 
+  Import took 0.091173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6143.fbx
+  artifactKey: Guid(bd52a199cea4b4d418a0b7256bce952c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6143.fbx using Guid(bd52a199cea4b4d418a0b7256bce952c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35947d1343901f2740b592bb66a9bd69') in 0.071690 seconds 
+  Import took 0.078191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/120.mat
+  artifactKey: Guid(f1ac1a2edff964b83b4ab7dd67fd8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/120.mat using Guid(f1ac1a2edff964b83b4ab7dd67fd8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a97b3125752093de214d19554bb0174') in 0.039129 seconds 
+  Import took 0.044418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3633.fbx
+  artifactKey: Guid(0f0eab3157701410e9d7f15d804b6728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3633.fbx using Guid(0f0eab3157701410e9d7f15d804b6728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62c6c8719cbe83a9ac6aee69e9d4619') in 0.051658 seconds 
+  Import took 0.056189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6541.fbx
+  artifactKey: Guid(169caa17b9104436cb310b5c88da3a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6541.fbx using Guid(169caa17b9104436cb310b5c88da3a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5aa84c42ee2543d6ac616bf6b39fba') in 0.045893 seconds 
+  Import took 0.049425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3956.fbx
+  artifactKey: Guid(2abd333e278a547afa4f69a20e0b913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3956.fbx using Guid(2abd333e278a547afa4f69a20e0b913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9156f3bfaa82dbfa690a515feaf7bb0') in 0.046873 seconds 
+  Import took 0.050603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3033.fbx
+  artifactKey: Guid(78f1b89fb91ef4b7fa07aa680bcf5242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3033.fbx using Guid(78f1b89fb91ef4b7fa07aa680bcf5242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a35620ac8fffb7b813ccad8045b0a2') in 0.045830 seconds 
+  Import took 0.050353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/182.mat
+  artifactKey: Guid(0f31c62887ff34e8da3caf0d7f95100d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/182.mat using Guid(0f31c62887ff34e8da3caf0d7f95100d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0751a97115b7729c60180bbb85aafbde') in 0.023904 seconds 
+  Import took 0.028582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/122.mat
+  artifactKey: Guid(f05bf60940d2f4bed86123f728e0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/122.mat using Guid(f05bf60940d2f4bed86123f728e0e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e62057e554fc96e9f65067e470e4b84') in 0.031087 seconds 
+  Import took 0.036169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/119.mat
+  artifactKey: Guid(79f1f31d9bfae4ac391294b7bea07626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/119.mat using Guid(79f1f31d9bfae4ac391294b7bea07626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c358a3ec3223942d3006e59bcf07e9') in 0.024345 seconds 
+  Import took 0.028929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3006.fbx
+  artifactKey: Guid(5c12b8e6939014d84a9b198bf97e77a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3006.fbx using Guid(5c12b8e6939014d84a9b198bf97e77a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74002b1f740e056a5a6a9b38ae5c5f9f') in 0.067133 seconds 
+  Import took 0.071354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/176.mat
+  artifactKey: Guid(b65f9ac4ba9cd468ca0f9ecb6d3e6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/176.mat using Guid(b65f9ac4ba9cd468ca0f9ecb6d3e6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9684758cc8b8a979e55fa2139dd69b6') in 0.029413 seconds 
+  Import took 0.035141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/157.mat
+  artifactKey: Guid(1726ea7b4d4394f098f4dbb97bcbb106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/157.mat using Guid(1726ea7b4d4394f098f4dbb97bcbb106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1cdcf7e1c5206b5a0dd2cf820efef9') in 0.036079 seconds 
+  Import took 0.040894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/38.mat
+  artifactKey: Guid(6ecf5321a48bb4158954c3ebf87a63d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/38.mat using Guid(6ecf5321a48bb4158954c3ebf87a63d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2236d4e2e296ee5013998332cc95c0cc') in 0.025960 seconds 
+  Import took 0.029844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/50.mat
+  artifactKey: Guid(0824c64cc273646f6bdf219607284eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/50.mat using Guid(0824c64cc273646f6bdf219607284eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb33bb38fe724e68c05562ed361c1ef7') in 0.038112 seconds 
+  Import took 0.042752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3038.fbx
+  artifactKey: Guid(4ca4a2347362a4cf5849cb46d12d23e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3038.fbx using Guid(4ca4a2347362a4cf5849cb46d12d23e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca12ced323e4a8c68cc78ad35cd4d798') in 0.047419 seconds 
+  Import took 0.052709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3010.fbx
+  artifactKey: Guid(52d6bbe6069db4094814b7cc0de61edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3010.fbx using Guid(52d6bbe6069db4094814b7cc0de61edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a605547b913ff187d75fb6294e640891') in 0.066917 seconds 
+  Import took 0.072483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/10.mat
+  artifactKey: Guid(0b4dfe3b30865435fa923fa02723db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/10.mat using Guid(0b4dfe3b30865435fa923fa02723db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d1aa5a16b4df470a2ffb8677b2b62b') in 0.028616 seconds 
+  Import took 0.032934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/37.mat
+  artifactKey: Guid(54083ad4f9a3e4ed4acb8890bf98844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/37.mat using Guid(54083ad4f9a3e4ed4acb8890bf98844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e80bacb19ff795efe2534667d56b643') in 0.024904 seconds 
+  Import took 0.029208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3688.fbx
+  artifactKey: Guid(626ae089e563d4135b4c8e56138ec932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3688.fbx using Guid(626ae089e563d4135b4c8e56138ec932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ae1b1e53c5dad43072962547890498') in 0.043530 seconds 
+  Import took 0.049754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3005.fbx
+  artifactKey: Guid(f982c83dc80dc4aaea2ab20e79a978cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3005.fbx using Guid(f982c83dc80dc4aaea2ab20e79a978cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1656667b27bfb59d4cb9240b8fdc98') in 0.052671 seconds 
+  Import took 0.058883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/189.mat
+  artifactKey: Guid(1638a028d3a9a45079bb19cf54c1a607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/189.mat using Guid(1638a028d3a9a45079bb19cf54c1a607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00630d0e0b075404df5dca6276af8e5') in 0.027637 seconds 
+  Import took 0.035080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6081.fbx
+  artifactKey: Guid(904b1315e507a48be93470bbc32dbd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6081.fbx using Guid(904b1315e507a48be93470bbc32dbd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccf04a9a02a185e24b1ce49d98f8403') in 0.045163 seconds 
+  Import took 0.050873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/138.mat
+  artifactKey: Guid(17caac1b90bb24af48ddf6b16bb9b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/138.mat using Guid(17caac1b90bb24af48ddf6b16bb9b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b502781d383fdb7bdadfbfa670851822') in 0.036767 seconds 
+  Import took 0.041010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/11.mat
+  artifactKey: Guid(c54510aeb6e1e4778bf78a2723c5def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/11.mat using Guid(c54510aeb6e1e4778bf78a2723c5def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e837f3c9fcb695d7ba17f806f7890348') in 0.026821 seconds 
+  Import took 0.031225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.lego.materials/Materials/126.mat
+  artifactKey: Guid(c07c14cf00aa9c9499cfcaf69df77718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/126.mat using Guid(c07c14cf00aa9c9499cfcaf69df77718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eb8772681d349480c5cfe1659c59d1') in 0.035941 seconds 
+  Import took 0.041149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Packages/com.unity.lego.materials/Materials/28.mat
+  artifactKey: Guid(9c8d5663d81d2014a8a74fae2a597269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/28.mat using Guid(9c8d5663d81d2014a8a74fae2a597269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95077ebe8068c632e8b928217338ea94') in 0.025241 seconds 
+  Import took 0.030505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/190.mat
+  artifactKey: Guid(157bc1c6f2d054b39b11c6fc5d0eba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/190.mat using Guid(157bc1c6f2d054b39b11c6fc5d0eba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f89529353ad264f526d2db85868fb4a') in 0.040556 seconds 
+  Import took 0.045356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3622.fbx
+  artifactKey: Guid(5847f2ab634274f0d932bd0ba5a8cd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3622.fbx using Guid(5847f2ab634274f0d932bd0ba5a8cd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d604a105b86adcecf3863f49edc3777') in 0.069667 seconds 
+  Import took 0.073940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/49.mat
+  artifactKey: Guid(93ae61237ba324a1c9bfa3c79795eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/49.mat using Guid(93ae61237ba324a1c9bfa3c79795eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef3388077c253c8aca6ad936473098c') in 0.024881 seconds 
+  Import took 0.030607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/12.mat
+  artifactKey: Guid(0f07e20722b114fbaa72b712d2431ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/12.mat using Guid(0f07e20722b114fbaa72b712d2431ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf41905648506f7007cdb3eed05373cb') in 0.029827 seconds 
+  Import took 0.034592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2449.fbx
+  artifactKey: Guid(096d12a8c68ae444cafaaf6412f9ad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2449.fbx using Guid(096d12a8c68ae444cafaaf6412f9ad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30841f87327736e888c77816b9622a94') in 0.068060 seconds 
+  Import took 0.072062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/105.mat
+  artifactKey: Guid(931d6d054b8e14ec28e72cca5e99620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/105.mat using Guid(931d6d054b8e14ec28e72cca5e99620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a6413bcf24e440758a10876e09cea3') in 0.036202 seconds 
+  Import took 0.039839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/40.mat
+  artifactKey: Guid(34e0ead2c1c2e4f289b240e487ba5f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/40.mat using Guid(34e0ead2c1c2e4f289b240e487ba5f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463364de14657bfd42716d167db017c9') in 0.023226 seconds 
+  Import took 0.027566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/13.mat
+  artifactKey: Guid(105da0115457f4eea92a8f645dba7063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/13.mat using Guid(105da0115457f4eea92a8f645dba7063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85a3242bf9afd4c74c354ee55912a70') in 0.028940 seconds 
+  Import took 0.033118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6148.fbx
+  artifactKey: Guid(d22987678f6424fa69c3897ab98edb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6148.fbx using Guid(d22987678f6424fa69c3897ab98edb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410f170ce3a66b452c544ea0e4a4d12b') in 0.043666 seconds 
+  Import took 0.048229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3045.fbx
+  artifactKey: Guid(081f6fda0d13f476e8999dc385f094e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3045.fbx using Guid(081f6fda0d13f476e8999dc385f094e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252ca07f5382a73e720787960adc6127') in 0.052090 seconds 
+  Import took 0.056322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/10314.fbx
+  artifactKey: Guid(477db32e91ba94e61a3417a6593a1eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/10314.fbx using Guid(477db32e91ba94e61a3417a6593a1eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e51ea810a25ba79adff29298b4226c') in 0.064234 seconds 
+  Import took 0.068791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3838.fbx
+  artifactKey: Guid(b6347e60d6d1841e4960a98b76066564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3838.fbx using Guid(b6347e60d6d1841e4960a98b76066564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72206811d2691bd334f922df2f636bd4') in 0.045648 seconds 
+  Import took 0.051127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4598.fbx
+  artifactKey: Guid(7d032d016ad284bcc99b08efc73fe93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4598.fbx using Guid(7d032d016ad284bcc99b08efc73fe93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce528a8d9f75d43d738636a97c075493') in 0.050977 seconds 
+  Import took 0.055287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/128.mat
+  artifactKey: Guid(cdc0286af4de54908bc7297a5946ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/128.mat using Guid(cdc0286af4de54908bc7297a5946ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b88da14f797c9dd0723147f176b8251') in 0.029981 seconds 
+  Import took 0.034247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3958.fbx
+  artifactKey: Guid(9af0362f46d8a40c2b1ff6e045884d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3958.fbx using Guid(9af0362f46d8a40c2b1ff6e045884d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4985342542aa997a27fc26115a38f866') in 0.051454 seconds 
+  Import took 0.056926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Packages/com.unity.lego.materials/Materials/48.mat
+  artifactKey: Guid(34749308318ad5947b4b3d0711501453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/48.mat using Guid(34749308318ad5947b4b3d0711501453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614ad91ec09968a297bf3d68a92d4f65') in 0.036321 seconds 
+  Import took 0.042382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6565.fbx
+  artifactKey: Guid(78f511195b30546b8beb0b1bd73ce7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6565.fbx using Guid(78f511195b30546b8beb0b1bd73ce7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7385e9adba8d3e28b8bf72d76456b0') in 0.056003 seconds 
+  Import took 0.062283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6564.fbx
+  artifactKey: Guid(346024634691849ba843e2d2398cc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6564.fbx using Guid(346024634691849ba843e2d2398cc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7f333c89822c8257af09e9ac57ec11') in 0.050281 seconds 
+  Import took 0.054535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4216.fbx
+  artifactKey: Guid(ff11ee00da07f442da08d745bee0c513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4216.fbx using Guid(ff11ee00da07f442da08d745bee0c513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc073f1f326e967b9dc88b5c16e91fb') in 0.037753 seconds 
+  Import took 0.042154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3741.fbx
+  artifactKey: Guid(d7203667415e74f2c8ff53fd3ab1574a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3741.fbx using Guid(d7203667415e74f2c8ff53fd3ab1574a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4195bfee1a47f01212dd9d2cf0f4c8c9') in 0.038093 seconds 
+  Import took 0.042383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Packages/com.unity.lego.materials/Materials/138.mat
+  artifactKey: Guid(7c01aba04cd311545a37b61585d44b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/138.mat using Guid(7c01aba04cd311545a37b61585d44b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3240845ca68df05aebd12864b7caec13') in 0.026271 seconds 
+  Import took 0.030523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6179.fbx
+  artifactKey: Guid(fd0f4b10589f649ba92b4b52549c4c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6179.fbx using Guid(fd0f4b10589f649ba92b4b52549c4c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e461217eb30e0a6d5a95b40de7233b') in 0.072142 seconds 
+  Import took 0.075830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4460.fbx
+  artifactKey: Guid(ac4bfa3e3cb9f472b927bcf8145c4777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4460.fbx using Guid(ac4bfa3e3cb9f472b927bcf8145c4777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3ecb6263d31cb03537b8178c47758e') in 0.030462 seconds 
+  Import took 0.035012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6082.fbx
+  artifactKey: Guid(8f787db0ac9c94e2aaba5647441795ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6082.fbx using Guid(8f787db0ac9c94e2aaba5647441795ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75db835e992642a702f454045d3072cb') in 0.139054 seconds 
+  Import took 0.146810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2921.fbx
+  artifactKey: Guid(9a13aea3c7d4a4f22b7cf9df7f71d569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2921.fbx using Guid(9a13aea3c7d4a4f22b7cf9df7f71d569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8846d34d1afc88155b63e40a82e83f9e') in 0.056515 seconds 
+  Import took 0.061564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/1.mat
+  artifactKey: Guid(eee836fe410c74bb8beff44e2bc44d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/1.mat using Guid(eee836fe410c74bb8beff44e2bc44d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1f8e80c62fb3ac337820822c957c1b') in 0.029904 seconds 
+  Import took 0.033648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/45.mat
+  artifactKey: Guid(9b8ecb64155b943808c68eb986159b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/45.mat using Guid(9b8ecb64155b943808c68eb986159b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0d2f1d99b62a5369e8003a5c92ea74') in 0.030368 seconds 
+  Import took 0.035388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4349.fbx
+  artifactKey: Guid(a39290383203649919495809f7017c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4349.fbx using Guid(a39290383203649919495809f7017c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf89aee7a688d69d97b09b46cc70324') in 0.056375 seconds 
+  Import took 0.061732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4341.fbx
+  artifactKey: Guid(4d71f917efbaf434fa8f39c62e6a0369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4341.fbx using Guid(4d71f917efbaf434fa8f39c62e6a0369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0a949716839f99561ec8fdc5eb0433') in 0.049579 seconds 
+  Import took 0.054428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Packages/com.unity.lego.materials/Materials/21.mat
+  artifactKey: Guid(e958f0d0ad3904c469fb8f836ca3b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/21.mat using Guid(e958f0d0ad3904c469fb8f836ca3b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d242393731328c783781b27d117fbc') in 0.023146 seconds 
+  Import took 0.027655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3036.fbx
+  artifactKey: Guid(be4283711c4f34702a2f1e5bb7bec909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3036.fbx using Guid(be4283711c4f34702a2f1e5bb7bec909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dd00682cd4650180190825469e35af') in 0.048753 seconds 
+  Import took 0.053903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/19.mat
+  artifactKey: Guid(a259fbcc82b6c42bc8b19294a2e602b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/19.mat using Guid(a259fbcc82b6c42bc8b19294a2e602b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf7c7691947590f47e02fd1fe65d128') in 0.031509 seconds 
+  Import took 0.036763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Packages/com.unity.lego.materials/Materials/24.mat
+  artifactKey: Guid(b8712bbba06fec942871a200beae9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/24.mat using Guid(b8712bbba06fec942871a200beae9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab87be601ee3518b2a48b68466442ba') in 0.020908 seconds 
+  Import took 0.025106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Packages/com.unity.lego.materials/Materials/135.mat
+  artifactKey: Guid(8dd268ad3a618d34db8fa2230402affe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/135.mat using Guid(8dd268ad3a618d34db8fa2230402affe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd29eeb0bda72e5b413b46f31799700') in 0.019174 seconds 
+  Import took 0.022782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2577.fbx
+  artifactKey: Guid(8716d6a3045dd4d0380cb25aa94aa14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2577.fbx using Guid(8716d6a3045dd4d0380cb25aa94aa14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72e46514700e493ff2aca32253325e1') in 0.049918 seconds 
+  Import took 0.054470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3009.fbx
+  artifactKey: Guid(7b66c22141908484cbadfb79e9b5c895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3009.fbx using Guid(7b66c22141908484cbadfb79e9b5c895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6f12952dcb1345369e98ae5f7b0414') in 0.070846 seconds 
+  Import took 0.082804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/11211.fbx
+  artifactKey: Guid(47bac71907dcc4898a1e3ce2169a4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/11211.fbx using Guid(47bac71907dcc4898a1e3ce2169a4d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9decc7660356090879681ca71ff04b83') in 0.069781 seconds 
+  Import took 0.075701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/47.mat
+  artifactKey: Guid(5f66a3ee3de6b448ba5313994da4f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/47.mat using Guid(5f66a3ee3de6b448ba5313994da4f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5be4ddfac843abf91808c09f7cbac7') in 0.028642 seconds 
+  Import took 0.033711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/127.mat
+  artifactKey: Guid(f6a1ab37fb6af48d4bb5f761db4e92cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/127.mat using Guid(f6a1ab37fb6af48d4bb5f761db4e92cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6b032c282685dee792331d152ce98e') in 0.031898 seconds 
+  Import took 0.037008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4162.fbx
+  artifactKey: Guid(0c459e35500f04447825acaa734037a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4162.fbx using Guid(0c459e35500f04447825acaa734037a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a71430d8e5980187da79243a2ffd94') in 0.050910 seconds 
+  Import took 0.056164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3030.fbx
+  artifactKey: Guid(0f3af578a79c845e0b11b89497523ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3030.fbx using Guid(0f3af578a79c845e0b11b89497523ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5692e33fa595f72434d8458efb73f9f') in 0.051234 seconds 
+  Import took 0.056154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/109.mat
+  artifactKey: Guid(3090f67e7d9a14ab08d2e6405f69fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/109.mat using Guid(3090f67e7d9a14ab08d2e6405f69fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd4e21a5dcc64cb2afbd604eb69971c') in 0.027313 seconds 
+  Import took 0.032852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3021.fbx
+  artifactKey: Guid(2e22230652eef43c49f5281839f0d114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3021.fbx using Guid(2e22230652eef43c49f5281839f0d114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed041df60a43742b6cf0d647c043cb6') in 0.051304 seconds 
+  Import took 0.057895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/143.mat
+  artifactKey: Guid(c54b0fbcdbf521a4fa464cecce3c2bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/143.mat using Guid(c54b0fbcdbf521a4fa464cecce3c2bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ce4fecdd7ebc1d03b38b3c2de7cf85') in 0.029415 seconds 
+  Import took 0.033803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/141.mat
+  artifactKey: Guid(000891c6620734d72a9aa9a27a14996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/141.mat using Guid(000891c6620734d72a9aa9a27a14996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fe6992f205c245834944a23570eb2c') in 0.022177 seconds 
+  Import took 0.026455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/18.mat
+  artifactKey: Guid(727f53ca6e443400b900b481818d6b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/18.mat using Guid(727f53ca6e443400b900b481818d6b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1700186b8e91363fbe1b9c3bb425185') in 0.029142 seconds 
+  Import took 0.034117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3666.fbx
+  artifactKey: Guid(fef807d626bf84b58bea4e4f3d8143b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3666.fbx using Guid(fef807d626bf84b58bea4e4f3d8143b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ccc6ea2a0332fe4f40c481fa931846') in 0.042900 seconds 
+  Import took 0.047379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.unity.lego.materials/Materials/113.mat
+  artifactKey: Guid(129d980c0cf06dc43803263c55689454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/113.mat using Guid(129d980c0cf06dc43803263c55689454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e30d681dbbb84a0aed98dbfdbfae05c') in 0.027977 seconds 
+  Import took 0.032447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Packages/com.unity.lego.materials/Materials/111.mat
+  artifactKey: Guid(bba8a184efe2220428ca021702742a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/111.mat using Guid(bba8a184efe2220428ca021702742a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdb73b9ee673912e6fdc6a1198c913c') in 0.026325 seconds 
+  Import took 0.031787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/9.mat
+  artifactKey: Guid(e25a6590272ea4a0e9e831b3008a4bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/9.mat using Guid(e25a6590272ea4a0e9e831b3008a4bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5046b63e08f1dff7fc3d21fea182cc') in 0.026299 seconds 
+  Import took 0.031353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3001.fbx
+  artifactKey: Guid(a256f446dc2044be8848667382fe97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3001.fbx using Guid(a256f446dc2044be8848667382fe97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d326788829405798a130e0a9f6f0f19') in 0.062412 seconds 
+  Import took 0.067893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4865.fbx
+  artifactKey: Guid(55b7cd784aeb24bbcb2de5e2f81a1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4865.fbx using Guid(55b7cd784aeb24bbcb2de5e2f81a1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8012f9c0c2b8e381fcbd5ea936420c7') in 0.061009 seconds 
+  Import took 0.065297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/23.mat
+  artifactKey: Guid(ffcb634fb9b2f441bb8fda4aa6c87c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/23.mat using Guid(ffcb634fb9b2f441bb8fda4aa6c87c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62849ed823a4572e19fa360ade09ba6b') in 0.027470 seconds 
+  Import took 0.032979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6269.fbx
+  artifactKey: Guid(b0dd46e9fbfe64a3bad2ad5dc56be102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6269.fbx using Guid(b0dd46e9fbfe64a3bad2ad5dc56be102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5de372cf2ab229e01cccd0b22c71126') in 0.038890 seconds 
+  Import took 0.042680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Packages/com.unity.lego.materials/Materials/23.mat
+  artifactKey: Guid(838eba2fdb3b14d4b9eb84d54ed6ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/23.mat using Guid(838eba2fdb3b14d4b9eb84d54ed6ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3abe2d2b877afc74d5e42fd4eb51528') in 0.021138 seconds 
+  Import took 0.025944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3623.fbx
+  artifactKey: Guid(f825bed47eb644269bc376638365894d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3623.fbx using Guid(f825bed47eb644269bc376638365894d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d96eaea7a87d6fad9530edb2ad3ed6') in 0.071779 seconds 
+  Import took 0.075990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2417.fbx
+  artifactKey: Guid(9e3baa0e374ee4f1fa25867d7213c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2417.fbx using Guid(9e3baa0e374ee4f1fa25867d7213c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bed93591f4753a50f6bf6f4200cdbd') in 0.041309 seconds 
+  Import took 0.046207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/2.mat
+  artifactKey: Guid(58a9fc568ff3741068ed810e05962538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/2.mat using Guid(58a9fc568ff3741068ed810e05962538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ade82c7990b2d72e0a6e55726fc5f20') in 0.030508 seconds 
+  Import took 0.034747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4035.fbx
+  artifactKey: Guid(5d418129445eb460e9303d9cfe122a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4035.fbx using Guid(5d418129445eb460e9303d9cfe122a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d0ed9f49548b3699c0645069ff651c') in 0.065347 seconds 
+  Import took 0.073928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/3004.fbx
+  artifactKey: Guid(d289a85c0e6a3484e9530213c22f6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/3004.fbx using Guid(d289a85c0e6a3484e9530213c22f6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadb71e0172e311ce697a8c8d51f6708') in 0.067905 seconds 
+  Import took 0.072331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Packages/com.unity.lego.materials/Materials/Legacy/168.mat
+  artifactKey: Guid(4368db5a7829c4f68838bc96792619d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/Legacy/168.mat using Guid(4368db5a7829c4f68838bc96792619d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78979809ba8c35f8f4246ca4968c93b5') in 0.030244 seconds 
+  Import took 0.034410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/4286.fbx
+  artifactKey: Guid(60b0b3cd2ab824704b3ef562ceae7ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/4286.fbx using Guid(60b0b3cd2ab824704b3ef562ceae7ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8577e5810a07b268038822b9ac4db215') in 0.047889 seconds 
+  Import took 0.052039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/6177.fbx
+  artifactKey: Guid(8182ebeeed00142ca91f5eea5acced96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/6177.fbx using Guid(8182ebeeed00142ca91f5eea5acced96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6d18a4d0a6a773b3aa99362a81112') in 0.075039 seconds 
+  Import took 0.079100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/24.mat
+  artifactKey: Guid(fec876905ce634354a14f46aa1b13ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/24.mat using Guid(fec876905ce634354a14f46aa1b13ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49075047ef051e0ed5f81c2896fb8dd') in 0.025130 seconds 
+  Import took 0.029589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Packages/com.unity.lego.materials/Materials/107.mat
+  artifactKey: Guid(66b2890a42a334a9cb2e5b6f5d1ad2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/107.mat using Guid(66b2890a42a334a9cb2e5b6f5d1ad2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f333c7d34846470678fea6dab9277a80') in 0.029995 seconds 
+  Import took 0.033971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Packages/com.unity.lego.materials/Materials/BI/41.mat
+  artifactKey: Guid(2ebce8feb322e493996527e977a8cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/BI/41.mat using Guid(2ebce8feb322e493996527e977a8cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5214539023abbcc78b9599dcef439ac') in 0.030222 seconds 
+  Import took 0.034547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2420.fbx
+  artifactKey: Guid(4f03b39adecea4e28ababbdca7d97b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2420.fbx using Guid(4f03b39adecea4e28ababbdca7d97b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5473bcb85b6fdc23629112d8344d4c') in 0.039267 seconds 
+  Import took 0.045168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/2454.fbx
+  artifactKey: Guid(6b8fcd130f9014737898fc6cf7309769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/2454.fbx using Guid(6b8fcd130f9014737898fc6cf7309769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3709729b8dee567a07f7063a07f102') in 0.064033 seconds 
+  Import took 0.068982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Packages/com.unity.lego.materials/Materials/102.mat
+  artifactKey: Guid(1524a42202564ee4faf8ad701de88bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.materials/Materials/102.mat using Guid(1524a42202564ee4faf8ad701de88bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9829d63706c15f135af2ae3fc4955fcb') in 0.032277 seconds 
+  Import took 0.037533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/11203.fbx
+  artifactKey: Guid(2d27e1c14b3ff42f4b26b7cf2e581870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/11203.fbx using Guid(2d27e1c14b3ff42f4b26b7cf2e581870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf65976b1f47bd52b95029e4b0f349fb') in 0.094007 seconds 
+  Import took 0.098013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.346601 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Adventurer.prefab
+  artifactKey: Guid(934668409d4904809a1489b29640e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Adventurer.prefab using Guid(934668409d4904809a1489b29640e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8c97e0396000213e897e9c9e153ef8') in 0.752565 seconds 
+  Import took 0.765920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Projectiles/Cannonball.prefab
+  artifactKey: Guid(3af4bfec8b7f648799fc51246a995e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Projectiles/Cannonball.prefab using Guid(3af4bfec8b7f648799fc51246a995e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3e87266a7602d73727d94d62c6a173') in 0.157396 seconds 
+  Import took 0.162049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Button Arrow.prefab
+  artifactKey: Guid(784450df57adc46eab121e0afc3951d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Button Arrow.prefab using Guid(784450df57adc46eab121e0afc3951d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a783b67b3f5346162038f9fc03c90f5') in 0.099136 seconds 
+  Import took 0.105902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Altar.prefab
+  artifactKey: Guid(38f75548c0b324b2682cbad7b09fcecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Altar.prefab using Guid(38f75548c0b324b2682cbad7b09fcecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a23b5cf8a75e42cfa70cba093efa001') in 0.047942 seconds 
+  Import took 0.053544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Button Action.prefab
+  artifactKey: Guid(641d602a4f7ad40538dda2ef1b094be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Button Action.prefab using Guid(641d602a4f7ad40538dda2ef1b094be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73fc3d945cef27431c1ec9a119677df') in 0.082341 seconds 
+  Import took 0.088120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Console.prefab
+  artifactKey: Guid(00485fc7a1a3d4fe2943950849eacd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Console.prefab using Guid(00485fc7a1a3d4fe2943950849eacd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f642bb18266060fbaa24c365b7b85e6c') in 0.067330 seconds 
+  Import took 0.074046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Audio.prefab
+  artifactKey: Guid(2811b6b17136449a6b4e9b435ea8a3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Audio.prefab using Guid(2811b6b17136449a6b4e9b435ea8a3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ccda405f72929220b115ef19792070') in 0.030594 seconds 
+  Import took 0.034690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Brewer.prefab
+  artifactKey: Guid(04d2e5b05d07643b7aff83683668e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Brewer.prefab using Guid(04d2e5b05d07643b7aff83683668e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a7a7a696408e573a795cb15cfc9fc9') in 0.079649 seconds 
+  Import took 0.085876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Bridge.prefab
+  artifactKey: Guid(99bc9e353294345e7abf5f30512bf8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Bridge.prefab using Guid(99bc9e353294345e7abf5f30512bf8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ce52439206af4161c0365748f4239a') in 0.121624 seconds 
+  Import took 0.130515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Cannon.prefab
+  artifactKey: Guid(7c664b531d27b440f9cd941fb0c3afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Cannon.prefab using Guid(7c664b531d27b440f9cd941fb0c3afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c7075d7f3746d2cf40120a7698a43') in 0.271187 seconds 
+  Import took 0.283499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/LEGO/Prefabs/Setup/Event System.prefab
+  artifactKey: Guid(9b45fc46c53dbe948adedf5a4f88583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Setup/Event System.prefab using Guid(9b45fc46c53dbe948adedf5a4f88583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27237bea539f04913b0f616efecf6f4') in 0.015887 seconds 
+  Import took 0.020161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Counter Trigger.prefab
+  artifactKey: Guid(0ad34d748b0f8584ab90acec1c11f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Counter Trigger.prefab using Guid(0ad34d748b0f8584ab90acec1c11f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d7f7a89bc53558c9a413c96596f920') in 0.117172 seconds 
+  Import took 0.121330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Buildings/Fence.prefab
+  artifactKey: Guid(08f194e70e6666c4d91b53a8fdc85470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Buildings/Fence.prefab using Guid(08f194e70e6666c4d91b53a8fdc85470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af574121207abe9f4681e018ae5a4bd3') in 0.158119 seconds 
+  Import took 0.169586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Berries.prefab
+  artifactKey: Guid(99e5b0c76ad47db429d93097d87d82e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Berries.prefab using Guid(99e5b0c76ad47db429d93097d87d82e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc78413a236ec8dd6628611a58347e5') in 0.049670 seconds 
+  Import took 0.054453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Alien.prefab
+  artifactKey: Guid(3b69f35b5c82fed44851cf9359486c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Alien.prefab using Guid(3b69f35b5c82fed44851cf9359486c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec0434de317726d8edb506b94bfbf6a') in 0.075540 seconds 
+  Import took 0.084014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/LEGO/Prefabs/Effects/Bubble.prefab
+  artifactKey: Guid(eadbd69425cf444e0bb4b35e085c0b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Effects/Bubble.prefab using Guid(eadbd69425cf444e0bb4b35e085c0b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6119a831a6d0c66a29d6e45509f9f3ba') in 0.067454 seconds 
+  Import took 0.071933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/LEGO/Prefabs/Setup/Game Manager.prefab
+  artifactKey: Guid(cc1e3f9715798ea4fab9885b641b3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Setup/Game Manager.prefab using Guid(cc1e3f9715798ea4fab9885b641b3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe896a8fdc70f31e68fecadda3c803e') in 0.014930 seconds 
+  Import took 0.018609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Bamboo.prefab
+  artifactKey: Guid(867b8f528b39f4a138438678aee738a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Bamboo.prefab using Guid(867b8f528b39f4a138438678aee738a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf344827befd92465b13a950343eeb7') in 0.054970 seconds 
+  Import took 0.062075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Explode.prefab
+  artifactKey: Guid(dec0a645588d04d8bb0ca99f70ffa743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Explode.prefab using Guid(dec0a645588d04d8bb0ca99f70ffa743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d38ae79ed17d849a506e190fae048aa') in 0.026527 seconds 
+  Import took 0.031213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Elevator.prefab
+  artifactKey: Guid(cf81ef10970270a45ab1f3c5bbbdff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Elevator.prefab using Guid(cf81ef10970270a45ab1f3c5bbbdff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772b90b172adc8d745785c986bcb9947') in 0.095379 seconds 
+  Import took 0.103262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Control.prefab
+  artifactKey: Guid(30cbd9d88ad3ab74a88fe4f7b478c574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Control.prefab using Guid(30cbd9d88ad3ab74a88fe4f7b478c574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261d9723ac32ad4ddc1da1a92d5e716e') in 0.051289 seconds 
+  Import took 0.056217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Cactus.prefab
+  artifactKey: Guid(50fea28fbd3734e49a8840fa067a25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Cactus.prefab using Guid(50fea28fbd3734e49a8840fa067a25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94006332e193c05ada0479c12673d5f') in 0.064371 seconds 
+  Import took 0.072261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Alive.prefab
+  artifactKey: Guid(14c411293fa3844dda7a44a1e006eb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Alive.prefab using Guid(14c411293fa3844dda7a44a1e006eb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1c3a9942509b538ac862bae884901c') in 0.025610 seconds 
+  Import took 0.031420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Cactus.prefab
+  artifactKey: Guid(50fea28fbd3734e49a8840fa067a25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Cactus.prefab using Guid(50fea28fbd3734e49a8840fa067a25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94006332e193c05ada0479c12673d5f') in 0.073921 seconds 
+  Import took 0.082642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Boulder Medium.prefab
+  artifactKey: Guid(5d14e1538a936344e9aa65df5b6acc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Boulder Medium.prefab using Guid(5d14e1538a936344e9aa65df5b6acc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442740decf3302500eeb9a6c5f55d796') in 0.058219 seconds 
+  Import took 0.065408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Dr Pato.prefab
+  artifactKey: Guid(a05afb62c04ea4ee98923cc3ea43b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Dr Pato.prefab using Guid(a05afb62c04ea4ee98923cc3ea43b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5e75c326dec713dd0ddce19a02ddbe') in 0.069342 seconds 
+  Import took 0.076252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Pickups/Fruit.prefab
+  artifactKey: Guid(37c756c1cd2f44b739bcd32b884951b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Pickups/Fruit.prefab using Guid(37c756c1cd2f44b739bcd32b884951b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7ad5c3729879f7dd0be839bb4d94da') in 0.048659 seconds 
+  Import took 0.053912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Evil Machine.prefab
+  artifactKey: Guid(6cea08cf6cc064515a4a34c0ec041639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Evil Machine.prefab using Guid(6cea08cf6cc064515a4a34c0ec041639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca4be3bca50ac59c2d51317846e6f3f') in 0.214584 seconds 
+  Import took 0.227228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Column.prefab
+  artifactKey: Guid(81529e70f15846247b05a795f806f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Column.prefab using Guid(81529e70f15846247b05a795f806f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eff767f4600d12a4d80230938b528aa') in 0.052908 seconds 
+  Import took 0.058943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Brick Collections/Cool Bricks.prefab
+  artifactKey: Guid(20ab5867c8d3d4ba983890cd90b6a7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Brick Collections/Cool Bricks.prefab using Guid(20ab5867c8d3d4ba983890cd90b6a7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b259a2921b2aa2821cb410c926d198') in 0.353887 seconds 
+  Import took 0.370545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Projectiles/Arrow.prefab
+  artifactKey: Guid(054cfbc98691e4a7f87913e2bf62d522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Projectiles/Arrow.prefab using Guid(054cfbc98691e4a7f87913e2bf62d522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e940b985ddc5ecbee93d3901b8a513') in 0.046887 seconds 
+  Import took 0.050751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Galo.prefab
+  artifactKey: Guid(e3e699aed59724e4b960325459cf8173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Galo.prefab using Guid(e3e699aed59724e4b960325459cf8173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd67dc30961849236864a7d195e7b65') in 0.067270 seconds 
+  Import took 0.074145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Astronaut.prefab
+  artifactKey: Guid(1f174dd798c1d408a9b88ca831df4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Astronaut.prefab using Guid(1f174dd798c1d408a9b88ca831df4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bdabe01f907767d0c6e9bdf42810cd') in 0.300709 seconds 
+  Import took 0.314446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Cage.prefab
+  artifactKey: Guid(a081f6d2ca2234ce9b6b487e63805de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Cage.prefab using Guid(a081f6d2ca2234ce9b6b487e63805de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26a0737d82e56660e67285e6243314c') in 0.261644 seconds 
+  Import took 0.276425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Pickups/Crystal.prefab
+  artifactKey: Guid(41d58ec482a3e4bddac6c8e0044f5826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Pickups/Crystal.prefab using Guid(41d58ec482a3e4bddac6c8e0044f5826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098a8e37aa694b425600380515698277') in 0.048036 seconds 
+  Import took 0.053380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Boulder Small.prefab
+  artifactKey: Guid(e3731e78348cf4a2fbf6cfdaf610c9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Boulder Small.prefab using Guid(e3731e78348cf4a2fbf6cfdaf610c9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86d2af57505588a570f835fef4e21be') in 0.040235 seconds 
+  Import took 0.045209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Elevator.prefab
+  artifactKey: Guid(498488446aa4c453ebfad8a187f1299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Elevator.prefab using Guid(498488446aa4c453ebfad8a187f1299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a923572d8ac8e871169246a8e26f78') in 0.062432 seconds 
+  Import took 0.067111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/LEGO/Prefabs/UI/Controls.prefab
+  artifactKey: Guid(6b23e1fc73ddf414eb915223522f6e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Controls.prefab using Guid(6b23e1fc73ddf414eb915223522f6e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce9e1854da9251fe2fed5a067439c17') in 0.042665 seconds 
+  Import took 0.047448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Counter.prefab
+  artifactKey: Guid(e091f61a413b7c443bcb03c9d0e2f23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Counter.prefab using Guid(e091f61a413b7c443bcb03c9d0e2f23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0a55cb5ad28a3c1f033f90b5087a20') in 0.067911 seconds 
+  Import took 0.073349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/LEGO/Prefabs/UI/Game HUD.prefab
+  artifactKey: Guid(68ea2f971bec30347ad00bc8f4e78891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Game HUD.prefab using Guid(68ea2f971bec30347ad00bc8f4e78891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1363fa833f0edd89fe823e1c0353b0f') in 0.039112 seconds 
+  Import took 0.043902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Pickups/Crab.prefab
+  artifactKey: Guid(0d50e868a16ca4d13b69fcd194a0d213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Pickups/Crab.prefab using Guid(0d50e868a16ca4d13b69fcd194a0d213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15a663a19642f05490f1358462ef650') in 0.049502 seconds 
+  Import took 0.054904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Flowers.prefab
+  artifactKey: Guid(a2ae65e677db2464facf7097a46294c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Flowers.prefab using Guid(a2ae65e677db2464facf7097a46294c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ec6e8c7863570a337b8899eae052b8') in 0.057827 seconds 
+  Import took 0.064891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036359 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Flowers.prefab
+  artifactKey: Guid(a2ae65e677db2464facf7097a46294c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Flowers.prefab using Guid(a2ae65e677db2464facf7097a46294c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ec6e8c7863570a337b8899eae052b8') in 0.055835 seconds 
+  Import took 0.062238 seconds .
+

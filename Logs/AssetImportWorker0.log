@@ -2697,3 +2697,76 @@ Received Import Request.
 Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Flowers.prefab using Guid(a2ae65e677db2464facf7097a46294c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ec6e8c7863570a337b8899eae052b8') in 0.055835 seconds 
   Import took 0.062238 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 229.837846 seconds.
+  path: Assets/LEGO/Prefabs/UI/Game Over Fade.prefab
+  artifactKey: Guid(bb4f358a5a93842cb90ba7990ad71f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Game Over Fade.prefab using Guid(bb4f358a5a93842cb90ba7990ad71f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2622bd0b4073e4b97742c5b265d780b') in 0.014955 seconds 
+  Import took 0.019814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Gnome.prefab
+  artifactKey: Guid(e6772116bbcc7cc4d99f0f86f915d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Gnome.prefab using Guid(e6772116bbcc7cc4d99f0f86f915d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7879e18057cdb133994d7eee36fc50') in 0.095375 seconds 
+  Import took 0.106617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Hazard.prefab
+  artifactKey: Guid(569d6da3692aa4c52814451a313b2732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Hazard.prefab using Guid(569d6da3692aa4c52814451a313b2732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76a849cffed44a023ab5f9f03977c2b') in 0.036440 seconds 
+  Import took 0.041662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/LEGO/Prefabs/UI/Input Prompt.prefab
+  artifactKey: Guid(35eacb06a69ff44438ed7eb355e722c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Input Prompt.prefab using Guid(35eacb06a69ff44438ed7eb355e722c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb3b43c3a8b0ac2d4016dabbee4a010') in 0.045199 seconds 
+  Import took 0.049857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Hover.prefab
+  artifactKey: Guid(ce1b1c9a8d68741c194647bf16ba5e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Hover.prefab using Guid(ce1b1c9a8d68741c194647bf16ba5e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341279a8f976ad5038c10503edc358ef') in 0.040802 seconds 
+  Import took 0.045902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/LEGO/Prefabs/UI/Speech Bubbles/Information Sign.prefab
+  artifactKey: Guid(d6049808cc8e54f51b948deadd957771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Speech Bubbles/Information Sign.prefab using Guid(d6049808cc8e54f51b948deadd957771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e593d5c3b1a6d9f95458243974e8af') in 0.051748 seconds 
+  Import took 0.056457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Golem.prefab
+  artifactKey: Guid(e9a8254f33877477c91a2eb9da7d3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Golem.prefab using Guid(e9a8254f33877477c91a2eb9da7d3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21907d173a538925b14982c223e12d2a') in 0.158858 seconds 
+  Import took 0.171463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Giraffe.prefab
+  artifactKey: Guid(484e9cbf2731244a89d30096e1ec9bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Giraffe.prefab using Guid(484e9cbf2731244a89d30096e1ec9bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffe156d012be0da7ff06c75d5c55f7c') in 0.115879 seconds 
+  Import took 0.123110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015216 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Giraffe.prefab
+  artifactKey: Guid(484e9cbf2731244a89d30096e1ec9bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Giraffe.prefab using Guid(484e9cbf2731244a89d30096e1ec9bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffe156d012be0da7ff06c75d5c55f7c') in 0.100139 seconds 
+  Import took 0.110994 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
